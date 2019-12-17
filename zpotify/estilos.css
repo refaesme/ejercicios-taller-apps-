@@ -26,7 +26,7 @@ article {
     box-sizing: border-box;
     border-radius: 20px;
     color: white;
-
+   
     width: 140px;
     height: 140px;
     text-align: center;
@@ -41,6 +41,12 @@ img {
     margin-left: 8px;
     margin-right: 8px;
     margin-top: 8px;
+  
+   
+}
+img:hover{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 p {
@@ -48,3 +54,9 @@ p {
     font-family: web-safe-front;
     margin: auto;
 }
+
+article:hover
+{
+background:#2fbd9e;
+}
+
