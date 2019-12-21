@@ -1,10 +1,10 @@
-main{
+main {
+
     position: center;
     width: 600px;
     height: 450px;
-    left: auto;
-    top: auto;
     
+
     background: #F2FCFF;
     border: 2px solid #C3F1FF;
     box-sizing: border-box;
@@ -12,11 +12,55 @@ main{
 }
 
 h2 {
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 42px;
-line-height: 49px;
 
-color: #5AD2AE;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    color: #5AD2AE;
+}
+
+input {
+    position: center;
+    font-size: 20px;
+    width: 500px;
+    height: 80px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5AD2AE;
+    background: #FFFFFF;
+    border: 1px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 39.5px;
+}
+
+button {
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 39.5px;
+    font-size: 20px;
+    width: 500px;
+    height: 80px;
+
+
+
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #AFAFAF;
 }
